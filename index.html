@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Kwitter</title>
+    <!-- Incluindo a fonte do Google Fonts e o CSS do Bootstrap -->
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <!-- Incluindo o arquivo de estilos customizados -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+	 <!-- Adicionando o ícone da página -->
+	<link rel="icon" href="m2.png" type="image/x-icon">
+
+</head>
+<body>
+    <center>
+        <h1 class="header">
+            kwitter <sup>
+                <img src="m2.png" >
+            </sup>
+        </h1>
+        <div class="col-lg-4-md-6-sm-6 col-xs-11 login_div">
+ <img src="logo.webp" class="logo">
+
+ <h3>Descubra oque esta acontecendo no mundo</h3>
+ <h4>junte-se ao kwitter hoje</h4>
+<div class="form-group">
+    <label> Nome de usuario:</label>
+    <input type="text" id="user_name" class="form-control" placeholder="nome de usuario">
+</div>
+<button id="login_button" onclick="addUser();" class="btn btn-warning">Entrar</button>
+<br><br>
+
+
+
+
+
+
+        </div>
+    </center>
+
+    <!-- Scripts JavaScript -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<!-- Script personalizado -->
+<script src="kwitter.js"></script>
+</body>
+</html>
